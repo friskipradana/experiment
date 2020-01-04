@@ -13,6 +13,7 @@ if (isset($_POST['submit'])) {
 <!DOCTYPE html>
 <html>
 <head>
+
     <title>Analyze Sample</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
@@ -88,10 +89,11 @@ if (isset($_POST['submit'])) {
         });
     };
 </script>
- 
+ <div class="starter-template"> <br><br><br>
 <h1>Analyze image:</h1>
 Tekan tombol <strong>Analyze image</strong> untuk memulai proses analisis gambar.
 <br><br>
+	 </div>
 URL gambar:
 <input type="text" name="inputImage" id="inputImage"
     value="<?php echo $url ?>" readonly />
