@@ -140,6 +140,6 @@ if (isset($_POST['submit'])) {
 		<br>
 		<h3 id="description">Loading description. . .</h3>
 	</div> -->
-</div>
+<!-- </div> -->
 </body>
 </html>
