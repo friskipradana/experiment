@@ -39,10 +39,10 @@ if (isset($_POST['submit'])) {
 		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 			<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
-				<a class="nav-link" href="https://smart-parkir.azurewebsites.net/">Home</a>
+				<a class="nav-link" href="https://experime.azurewebsites.net/">Home</a>
 			</li>
 			<li class="nav-item active">
-				<a class="nav-link" href="https://smart-parkir.azurewebsites.net/analyze.php">Analisis Kendaraan<span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="https://experime.azurewebsites.net/analyze.php">Analisis Kendaraan<span class="sr-only">(current)</span></a>
 			</li>
 		</div>
 		</nav>
@@ -58,7 +58,7 @@ if (isset($_POST['submit'])) {
             // *** Update or verify the following values. ***
             // **********************************************
             // Replace <Subscription Key> with your valid subscription key.
-            var subscriptionKey = "11a80a1fd7f940658116e077ee63406f";
+             var subscriptionKey = "11a80a1fd7f940658116e077ee63406f";
             // You must use the same Azure region in your REST API method as you used to
             // get your subscription keys. For example, if you got your subscription keys
             // from the West US region, replace "westcentralus" in the URL
@@ -120,7 +120,7 @@ if (isset($_POST['submit'])) {
 		<br><br>
 		<img id="sourceImage" width="400" />
 		<br>
-		<h3 id="description">Loading description. . .</h3>
+		<h3 id="description">Loading description. . </h3>
 	</div>
 </div>
 </body>
