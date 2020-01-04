@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
 	header("Location: analyze.php");
 }
 
-
+?>
 <!DOCTYPE html>
     <html>
     <head>
@@ -216,4 +216,4 @@ Image to analyze:
 </div>
 </body>
 </html>
-			?>
+			
