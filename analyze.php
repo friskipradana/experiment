@@ -52,10 +52,10 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
       <li class="nav-item ">
         <a class="nav-link" href="https://experime.azurewebsites.net/">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="https://experime.azurewebsites.net/analyze.php">Add Image</a>
       </li>
-  <li class="nav-item active">
+  <li class="nav-item">
         <a class="nav-link" href="https://experime.azurewebsites.net/computervision.php">Analyze image</a>
       </li>
     </ul>
