@@ -1,3 +1,14 @@
+<?php
+if (isset($_POST['submit'])) {
+	if (isset($_POST['url'])) {
+		$url = $_POST['url'];
+	} else {
+		header("Location: analyze.php");
+	}
+} else {
+	header("Location: analyze.php");
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
