@@ -35,7 +35,7 @@
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />
  </form>
-</div>
+
 
 
  <?php
@@ -98,5 +98,6 @@
         }
     }
  ?>
+</div>
  </body>
  </html>
