@@ -33,9 +33,9 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="https://raw.githubusercontent.com/muhrizky/Smart-Parkir/master/parking_meter__2__Mrq_icon.ico">
+   
 
-    <title>Undip Smart Parkir</title>
+    <title>analisa gambar</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
 
@@ -62,8 +62,8 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 		</nav>
 		<main role="main" class="container">
     		<div class="starter-template"> <br><br><br>
-        		<h1>Analisis Kendaraan</h1>
-				<p class="lead">Pilih Foto Kendaraan Anda.<br> Kemudian Click <b>Upload</b>, untuk menganlisa foto pilih <b>analyze</b> pada tabel.</p>
+        		<h1>Analisa Gambar</h1>
+				<p class="lead">Pilih Foto Gambar<br> Kemudian Click <b>Upload</b>, untuk menganlisa foto pilih <b>analyze</b> pada tabel.</p>
 				<span class="border-top my-3"></span>
 			</div>
 		<div class="mt-4 mb-2">
