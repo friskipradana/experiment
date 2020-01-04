@@ -22,7 +22,7 @@
 	 
 	 
 	 
-  <main role="main" class="container">
+ <div class="container">
   <div class="starter-template"> <br><br><br>
         <h1>Register here!!</h1>
         <p>Fill in your name and email address, then click Submit to register</p> <br>
@@ -35,6 +35,9 @@
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />
  </form>
+</div>
+
+
  <?php
     $host = "azurewebsappserver.database.windows.net";
     $user = "azureusers";
