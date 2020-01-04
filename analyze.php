@@ -35,7 +35,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
     <meta name="author" content="">
    
 
-    <title>analisa gambar</title>
+    <title>add image</title>
 
  
     <!-- Bootstrap core CSS -->
