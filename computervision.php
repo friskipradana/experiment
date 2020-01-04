@@ -102,6 +102,6 @@ document.getElementById('analyze_btn').click();
         <br><br>
         <img id="sourceImage" width="400" />
     </div>
-</div>
+</div><br><br><br>
 </body>
 </html>
