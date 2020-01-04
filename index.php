@@ -16,10 +16,6 @@
       <li class="nav-item">
         <a class="nav-link" href="https://experime.azurewebsites.net/analyze.php">Add Image</a>
       </li>
-  <li class="nav-item">
-        <a class="nav-link" href="https://experime.azurewebsites.net/computervision.php">Analyze image</a>
-      </li>
-    </ul>
   </div>
 </nav>
 	 
