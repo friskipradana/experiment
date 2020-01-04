@@ -58,10 +58,10 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
     </ul>
   </div>
 </nav>
-		<main role="main" class="container">
-    		<div class="starter-template"> <br><br><br>
-        		<h1>Add Image & Analyze Image</h1>
-				<p class="lead">Pilih Foto Gambar<br> Kemudian Click <b>Upload</b>, untuk menganlisa foto pilih <b>analyze</b> pada tabel.</p>
+<main role="main" class="container">
+ <div class="starter-template"> <br><br><br>
+      <h1>Add Image & Analyze Image</h1>
+				<p class="lead">Pilih Foto/Gambar<br> Kemudian Click <b>Upload</b>, untuk menganalisa foto pilih <b>analyze</b> pada tabel.</p>
 				<span class="border-top my-3"></span>
 			</div>
 		<div class="mt-4 mb-2">
@@ -105,7 +105,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 			</tbody>
 		</table>
 
-	</div>
+	</div><br><br><br>
 
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
