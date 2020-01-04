@@ -33,11 +33,13 @@
 	 
 	 
  <form method="post" action="index.php" enctype="multipart/form-data" >
+	  <div class="form-group">
        Name  <input class="form-control form-control-sm" type="text" name="name" id="name"/></br></br>
        Email <input class="form-control form-control-sm" type="text" name="email" id="email"/></br></br>
        Job <input class="form-control form-control-sm" type="text" name="email" id="job"/></br></br>
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />
+</div>
  </form>
 
 
