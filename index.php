@@ -4,7 +4,7 @@
       <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
   
- <style type="text/css">
+<!--  <style type="text/css">
  	body { background-color: #fff; border-top: solid 10px #000;
  	    color: #333; font-size: .85em; margin: 20; padding: 20;
  	    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -16,21 +16,20 @@
  	table { margin-top: 0.75em; }
  	th { font-size: 1.2em; text-align: left; border: none; padding-left: 0; }
  	td { padding: 0.25em 2em 0.25em 0em; border: 0 none; }
- </style>
+ </style> -->
  </head>
  <body>
-<main role="main" class="container">
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 			<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
+			<li class="nav-item">
 				<a class="nav-link" href="https://experime.azurewebsites.net/">Home</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://experime.azurewebsites.net/analyze.php">Analisis Gambar<span class="sr-only">(current)</span></a>
+			<li class="nav-item active">
+				<a class="nav-link" href="https://experime.azurewebsites.net/analyze.php">Analisis Kendaraan<span class="sr-only">(current)</span></a>
 			</li>
 		</div>
 		</nav>
