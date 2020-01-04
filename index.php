@@ -39,7 +39,7 @@
        Email <input class="form-control form-control-sm" type="text" name="email" id="email"/>
 	 </div>
 	 <div class="form-group">
-       Job <input class="form-control form-control-sm" type="text" name="email" id="job"/>
+       Job <input class="form-control form-control-sm" type="text" name="job" id="job"/>
 	</div>
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />
