@@ -46,15 +46,8 @@ if (isset($_POST['submit'])) {
 			</li>
 		</div>
 		</nav>
-		<main role="main" class="container">
-    		<div class="starter-template"> <br><br><br>
-        		<h1>Hasil Analisis Kendaraan</h1>
-				<p class="lead">Berikut merupakan hasil analisis kendaraan yang <b>Anda</b> Upload <br> Karakteristik Foto kendaraan ada pada kolom Response.</p>
-				<span class="border-top my-3"></span>
-			</div>
-			
-			
-			<script type="text/javascript">
+	
+<script type="text/javascript">
     function processImage() {
         // **********************************************
         // *** Update or verify the following values. ***
@@ -140,21 +133,5 @@ Image to analyze:
     </div>
 </div>
 			
-
-<!-- <div id="wrapper" style="width:1020px; display:table;">
-	<div id="jsonOutput" style="width:600px; display:table-cell;">
-		<b>Response:</b>
-		<br><br>
-		<textarea id="responseTextArea" class="UIInput"
-		style="width:580px; height:400px;" readonly=""></textarea>
-	</div>
-	<div id="imageDiv" style="width:420px; display:table-cell;">
-		<b>Source Image:</b>
-		<br><br>
-		<img id="sourceImage" width="400" />
-		<br>
-		<h3 id="description">Loading description. . .</h3>
-	</div> -->
-<!-- </div> -->
 </body>
 </html>
