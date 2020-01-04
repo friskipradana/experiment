@@ -47,12 +47,7 @@ if (isset($_POST['submit'])) {
 			</li>
 		</div>
 		</nav>
-		<main role="main" class="container">
-    		<div class="starter-template"> <br><br><br>
-        		<h1>Hasil Analisis Kendaraan</h1>
-				<p class="lead">Berikut merupakan hasil analisis kendaraan yang <b>Anda</b> Upload <br> Karakteristik Foto kendaraan ada pada kolom Response.</p>
-				<span class="border-top my-3"></span>
-			</div>
+		
 <script type="text/javascript">
     function processImage() {
         // **********************************************
