@@ -28,10 +28,14 @@
         <p>Fill in your name and email address, then click Submit to register</p> <br>
         <span class="border-top my-3"></span>
       </div>
+	 
+	 
+	 
+	 
  <form method="post" action="index.php" enctype="multipart/form-data" >
-       Name  <input type="text" name="name" id="name"/></br></br>
+       Name  <input class="form-control type="text" name="name" id="name"/></br></br>
        Email <input type="text" name="email" id="email"/></br></br>
-       Job <input type="text" name="job" id="job"/></br></br>
+       Job <input type="text" name="email" id="job"/></br></br>
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />
  </form>
