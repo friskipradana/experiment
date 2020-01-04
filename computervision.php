@@ -89,16 +89,18 @@ if (isset($_POST['submit'])) {
         });
     };
 </script>
+	 <main role="main" class="container">
  <div class="starter-template"> <br><br><br>
 <h1>Analyze image:</h1>
 Tekan tombol <strong>Analyze image</strong> untuk memulai proses analisis gambar.
 <br><br>
-	 </div>
+	 
 URL gambar:
 <input type="text" name="inputImage" id="inputImage"
     value="<?php echo $url ?>" readonly />
 <button id="analyze_btn" onclick="processImage()">Analyze image</button>
 <br><br>
+	 </div>
 <script language="javascript">
 document.getElementById('analyze_btn').click(); 
 </script>
