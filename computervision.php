@@ -86,7 +86,7 @@ if (isset($_POST['submit'])) {
         <a class="nav-link" href="https://experime.azurewebsites.net/analyze.php">Add Image</a>
       </li>
   <li class="nav-item active">
-        <a class="nav-link" href="https://experime.azurewebsites.net/computervision.php">Analize Image</a>
+        <a class="nav-link" href="https://experime.azurewebsites.net/computervision.php">Analyze image</a>
       </li>
     </ul>
   </div>
