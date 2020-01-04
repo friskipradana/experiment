@@ -7,20 +7,28 @@
 
  </head>
  <body>
- <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<ul class="navbar-nav mr-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="https://experime.azurewebsites.net/">Home</a>
-			</li>
-			<li class="nav-item active">
-				<a class="nav-link" href="https://experime.azurewebsites.net/analyze.php">Analisis Kendaraan<span class="sr-only">(current)</span></a>
-			</li>
-		</div>
-		</nav>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://experime.azurewebsites.net/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://experime.azurewebsites.net/analyze.php">Analize Image</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	 
+	 
+	 
   <main role="main" class="container">
   <div class="starter-template"> <br><br><br>
         <h1>Register here!!</h1>
